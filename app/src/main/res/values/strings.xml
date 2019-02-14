@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Java Template</string>
+
+    <!-- Layout -->
+    <string name="edit_text_hint">Enter an ID</string>
+    <string name="button_classic">Send to API</string>
+    <string name="button_bebound">Send by Be-Bound</string>
+
+    <!-- Toasts -->
+    <string name="toast_et_empty">Enter ID before sending it</string>
+    <string name="toast_range_not_valid">Id allowed from 1 to 64</string>
+
+    <string name="toast_sent">Request sent</string>
+    <string name="toast_fail">Something went wrong</string>
+    <string name="toast_success">The %d corresponds to %1s born in %2s</string>
+</resources>

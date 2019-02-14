@@ -1,0 +1,31 @@
+buildscript {
+    
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.3.1'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+
+        // NOTE: To download the Be-Bound SDK, add these Maven dependencies
+        // with your own credentials.
+        maven {
+            url 'https://sdk.be-bound.com/artifactory/external-release-local'
+            credentials {
+                username 'YOUR MAVEN USER'
+                password 'YOUR MAVEN PASS'
+            }
+        }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

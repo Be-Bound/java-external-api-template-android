@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<be-app name="Template" apk="com.bebound.template" version="1" protocol="1">
+    <server_operations>
+        <operation name="get_character">
+            <request>
+                <param name="id" type="int" min="1" max="64"/>
+            </request>
+            <response>
+                <param name="char_name" type="string" min_len="1" max_len="32"/>
+                <param name="planet_name" type="string" min_len="1" max_len="32"/>
+            </response>
+        </operation>
+    </server_operations>
+</be-app>
