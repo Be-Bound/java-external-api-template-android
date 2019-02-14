@@ -3,7 +3,7 @@
 
     <!-- Layout -->
     <string name="edit_text_hint">Enter an ID</string>
-    <string name="button_classic">Send to API</string>
+    <string name="button_classic">Send by HTTP</string>
     <string name="button_bebound">Send by Be-Bound</string>
 
     <!-- Toasts -->
